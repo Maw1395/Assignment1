@@ -1,0 +1,37 @@
+a) PS C:\Users\Woodham-PC\Downloads\Assignment1> git add .\docs\status.txt
+PS C:\Users\Woodham-PC\Downloads\Assignment1> git commit -m "Example of git status being used in the docs/status file"
+[master a67d7e9] Example of git status being used in the docs/status file
+ 1 file changed, 4 insertions(+)
+PS C:\Users\Woodham-PC\Downloads\Assignment1> git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 466 bytes | 466.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Maw1395/Assignment1.git
+   1a4f730..a67d7e9  master -> master
+
+b) 11 commits, used git log
+
+c) Wednesday, September 27th at 16:31:42 2017 
+git log -p .gitignore
+
+d) 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+   cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+
+e) Compile time will be shoptened on bigger project as you won't have to compile the whole project, just your individual branch
+   Every time you need to test or debug
+   There is less of a chance of corruption of the master branch as users will only be working on their own specific branches.
+
+f) Git status is used to show the current status of the repository as it exists within your directory as compared to the master or branch.
+   Git log is used to show past changes to the master or branch, not the current status. 
+
+g) git log -p Weapon.h
+
+h) git log --grep="file"
+
+i) Inheritance allows a child class to take on the properties of its parent class while still being a seperate class on its own definied by its 
+   own specific paramaters
+   Polymorphism allows for classes to be converted into others for method sakes. It is the ability to trate objects of different types in a similiar manner.
+   Encapsulation is a method for restricitng the objects direct components eg the public vs private methods. 
