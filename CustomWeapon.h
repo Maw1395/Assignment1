@@ -10,7 +10,7 @@
 class CustomWeapon : public Weapon {
 public:
 
-	CustomWeapon() : Weapon(" Custom Weapon", 200.0) {
+	CustomWeapon() : Weapon(" Custom Weapon",50.0) {
 	}
 	virtual ~CustomWeapon() {};
 	virtual double hit(double armor);

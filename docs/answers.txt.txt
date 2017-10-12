@@ -35,3 +35,6 @@ i) Inheritance allows a child class to take on the properties of its parent clas
    own specific paramaters
    Polymorphism allows for classes to be converted into others for method sakes. It is the ability to trate objects of different types in a similiar manner.
    Encapsulation is a method for restricitng the objects direct components eg the public vs private methods. 
+   
+Question 7
+  Polymorphism. They're all using the weapon class, but they're all implementing its individual inherited methods in a seperate way. 

@@ -14,6 +14,7 @@ public:
 	virtual ~CrazyRandomSword() {};
 	virtual double hit(double armor);
 
+
 };
 
 #endif /*CRAZYRANDOMSWORD_H */
